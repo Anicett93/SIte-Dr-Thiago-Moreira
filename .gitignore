@@ -1,0 +1,11 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuração local do Claude Code (as skills em .claude/skills entram no repo)
+.claude/settings.local.json
+
+# Material interno: fica só local (repo público). Histórico completo na branch local backup-completo.
+projeto/
+design/
