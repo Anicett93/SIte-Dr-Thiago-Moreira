@@ -9,4 +9,5 @@ desktop.ini
 # Material interno: fica só local (repo público). Histórico completo na branch local backup-completo.
 projeto/
 design/
-/Dr Thiago.jpeg
+# Fotos originais em alta (a versão web otimizada fica em site/assets/fotos/)
+fotos/
