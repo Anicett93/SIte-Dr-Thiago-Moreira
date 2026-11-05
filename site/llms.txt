@@ -32,6 +32,7 @@ Agendamento pela secretaria, por WhatsApp. Teleconsulta apenas para retorno.
 ## Páginas
 
 - [Página inicial](https://drthiagomoreira.com.br/)
+- [Conteúdos](https://drthiagomoreira.com.br/conteudos.html): índice dos artigos sobre arritmias e ablação.
 - [Ablação de fibrilação atrial: o que mudou e quando ela é indicada](https://drthiagomoreira.com.br/ablacao-fibrilacao-atrial.html): estudos recentes, indicações, quando adiar e que resultado esperar.
 - [Ecocardiografia intracardíaca (ICE)](https://drthiagomoreira.com.br/ecocardiografia-intracardiaca-ice.html): ultrassom de dentro do coração, ablação com zero fluoroscopia (raio X só quando necessário) e busca de trombo sem ecocardiograma transesofágico.
 - [Ablação por campo pulsado (PFA)](https://drthiagomoreira.com.br/ablacao-por-campo-pulsado.html): como funciona, o que os estudos mostram em comparação com a radiofrequência e a crioablação, e os limites.

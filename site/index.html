@@ -307,6 +307,12 @@
         .brand-text small { display: block; margin-top: 5px; font: 500 10px/1 var(--font-mono); letter-spacing: .25em; text-transform: uppercase; color: var(--stone-500); }
         .nav-meta { color: var(--stone-500); display: flex; align-items: center; gap: 10px; }
         .nav-meta i { width: 4px; height: 4px; border-radius: 50%; background: var(--stone-300); }
+        .nav-right { display: flex; align-items: center; gap: 32px; }
+        .nav-menu { display: flex; align-items: center; gap: 28px; }
+        .nav-menu a { color: var(--stone-600); text-decoration: none; padding: 8px 0; border-bottom: 1px solid transparent; transition: color .3s, border-color .3s; }
+        .nav-menu a:hover { color: var(--ink); border-bottom-color: var(--pulse); }
+        @media (max-width: 1279px) { .nav-meta { display: none; } }
+        @media (max-width: 767px) { .nav-right { gap: 16px; } .nav-opt { display: none; } }
 
         /* Beam button (ds2/ds10): borda cônica girando */
         .beam-btn { position: relative; overflow: hidden; border-radius: var(--radius-pill); padding: 1px; background: rgba(0, 0, 0, 0.07); display: inline-flex; transition: transform .4s var(--ease-out-expo), box-shadow .4s; }
@@ -711,10 +717,17 @@
                 <span class="brand-text">Thiago Moreira <small>Eletrofisiologia</small></span>
             </a>
             <p class="nav-meta t-label">Porto Alegre <i></i> Novo Hamburgo</p>
-            <button class="beam-btn nav-cta" type="button" data-cta="primary">
-                <span class="beam-spinner" aria-hidden="true"></span>
-                <span class="beam-btn-content">Agendar</span>
-            </button>
+            <div class="nav-right">
+                <nav class="nav-menu" aria-label="Menu principal">
+                    <a class="t-label nav-opt" href="#atuacao">Atuação</a>
+                    <a class="t-label nav-opt" href="#sobre">Sobre</a>
+                    <a class="t-label" href="conteudos.html">Conteúdos</a>
+                </nav>
+                <button class="beam-btn nav-cta" type="button" data-cta="primary">
+                    <span class="beam-spinner" aria-hidden="true"></span>
+                    <span class="beam-btn-content">Agendar</span>
+                </button>
+            </div>
         </div>
     </header>
 
